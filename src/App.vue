@@ -12,7 +12,7 @@ import foot from './components/foot/foot'
 export default {
   data(){
     return{
-       
+       foot:[]
     }
   },
   components:{
