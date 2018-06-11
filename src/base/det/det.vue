@@ -24,12 +24,13 @@ export default{
 		}
 	},
 	methods:{
-		hide(){
-			this.flag=false
-		},
 		show(){
-			this.flag=true
+			this.flag=true;
+		},
+		hide(){
+			this.flag=false;
 		}
+		
 	}
 }
 </script>
@@ -43,5 +44,13 @@ export default{
 	width:100%;
 	height:100%;
 	z-index:11;
+
+}
+.move-enter, .move-leave-to{
+	left:100%;
+	
+}
+.move-enter-active, .move-leave-active{
+	transition:all 0.6s;
 }
 </style>
