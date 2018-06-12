@@ -9,7 +9,7 @@
 	<div ref='home' id='home'>
 		<div class='homebar' >
 			<keep-alive>
-				<transition name='move'>
+				<transition >
 					<component :is='hometab' :filteddata='filteddata'></component>
 				</transition>
 			</keep-alive>

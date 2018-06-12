@@ -6,6 +6,7 @@
 			<p v-text='detail.title'></p>
 			<p v-text='detail.unitPrice'></p>
 			<p v-text='detail.det'></p>
+			<p @click='addShopcar(detail)'>加入购物车</p>
 		</div>
 	</transition>
 	
@@ -29,6 +30,10 @@ export default{
 		},
 		hide(){
 			this.flag=false;
+		},
+		addShopcar(detail){
+			this.$emit('addshopcar',detail);
+			
 		}
 		
 	}

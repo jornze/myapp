@@ -15,7 +15,7 @@
 	    </template>
 	    
 	</div>
-	<det ref="det" :detail='details'></det>
+	<det ref="det" :detail='details'  @addshopcar='addshop'></det>
 	</div>
 </template>
 <script>
@@ -27,7 +27,8 @@ export default{
 			details:{
 				type:Object,
 				required:true
-			}
+			},
+			
 		}
 	},
 	mounted(){
@@ -37,7 +38,12 @@ export default{
 					      click: {
 					        type: Boolean,
 					        default: true
-					      }
+					      },
+					      pullup: {
+					       type: Boolean, 
+					       default: true
+					       },
+
 					})
 		})
 			
@@ -56,6 +62,14 @@ export default{
 			
 			this.$refs.det.show();	
 		},
+		addshop(detail){
+			
+			this.$root.Bus.shopcar.push(detail);
+			
+			
+
+		
+	    }
 
 	}
 		
