@@ -66,9 +66,7 @@ export default{
 			
 			this.$root.Bus.shopcar.push(detail);
 			
-			
-
-		
+				
 	    }
 
 	}
