@@ -9,7 +9,7 @@
 	<div ref='home' id='home'>
 		<div class='homebar' >
 			<keep-alive>
-				<transition name='move'>
+				<transition >
 					<component :is='hometab' :filteddata='filteddata'></component>
 				</transition>
 			</keep-alive>
@@ -63,9 +63,7 @@
 			fetchallBookdata(){
 				this.$http.get('static/data.json').then(res=>{
 					this.allbook=res.data.book;
-					this.scroll=new BScroll(this.$refs.home,{
-
-					})
+					
 				}).catch(err=>{console.log('fetchallbookdata',err)})
 			},
 			navtab(item){

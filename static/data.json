@@ -6,6 +6,8 @@
 			"Name":"jquery",
 			"_id":"1",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m8.ddimg.cn/50/8/22786088-1_b_0.jpg",
 			"title":"this is a book of javascript framework",
 			"det":"this is a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
@@ -15,6 +17,8 @@
 			"Name":"VUE",
 			"_id":"2",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m6.ddimg.cn/32/10/25180286-1_b_3.jpg",
 			"title":"this is a VUEbook of javascript framework",
 			"det":"this VUE a best-mini VUEbook of javascript in all framework,you can VUEbook VUEbook api in the book,helpness for webIT"
@@ -24,6 +28,8 @@
 			"Name":"react",
 			"_id":"3",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m3.ddimg.cn/75/13/24135483-1_b_6.jpg",
 			"title":"threactis is a react of javascript react",
 			"det":"react is a best-react framework of javascript in all framework,you can find more api in the book,helpness for webIT"
@@ -33,6 +39,8 @@
 			"Name":"angular",
 			"_id":"4",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"angular is a book of javascript framework",
 			"det":"this angular a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
@@ -42,6 +50,8 @@
 			"Name":"bootstrap",
 			"_id":"5",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m2.ddimg.cn/70/35/25114192-1_b_6.jpg",
 			"title":"bootstrap is a book of javascript framework",
 			"det":"this is a bootstrap-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
@@ -51,6 +61,8 @@
 			"Name":"css3",
 			"_id":"6",
 			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"img":"http://img3m3.ddimg.cn/22/29/25108303-1_b_9.jpg",
 			"title":"css3 is a book of javascript framework",
 			"det":"css3 is a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
@@ -59,6 +71,10 @@
 			"type":"server",
 			"Name":"php",
 			"_id":"1",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"php is a book of javascript framework",
 			"det":"php is a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -66,6 +82,10 @@
 			"type":"server",
 			"Name":"sql",
 			"_id":"2",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"sql is a VUEbook of javascript framework",
 			"det":"sql VUE a best-mini VUEbook of javascript in all framework,you can VUEbook VUEbook api in the book,helpness for webIT"
 		},
@@ -73,6 +93,10 @@
 			"type":"server",
 			"Name":"asp",
 			"_id":"3",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"asp is a react of javascript react",
 			"det":"asp is a best-react framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -80,6 +104,10 @@
 			"type":"server",
 			"Name":"ado",
 			"_id":"4",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"ado is a book of javascript framework",
 			"det":"this ado a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -87,6 +115,10 @@
 			"type":"server",
 			"Name":"VBScript",
 			"_id":"5",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"VBScript is a book of javascript framework",
 			"det":"this VBScript a bootstrap-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -94,6 +126,10 @@
 			"type":"server",
 			"Name":"java",
 			"_id":"6",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"java is a book of javascript framework",
 			"det":"java java a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -101,6 +137,10 @@
 			"type":"xml",
 			"Name":"xml",
 			"_id":"1",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"xml is a book of javascript framework",
 			"det":"xml xml a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -108,6 +148,9 @@
 			"type":"xml",
 			"Name":"dtd",
 			"_id":"2",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"title":"dtd is a VUEbook of javascript framework",
 			"det":"dtd VUE a best-mini VUEbook of javascript in all framework,you can VUEbook VUEbook api in the book,helpness for webIT"
 		},
@@ -115,6 +158,10 @@
 			"type":"xml",
 			"Name":"xml-dom",
 			"_id":"3",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"xml-dom is a react of javascript react",
 			"det":"xml-dom is a best-react framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -122,6 +169,9 @@
 			"type":"xml",
 			"Name":"xsl",
 			"_id":"4",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
 			"title":"xsl is a book of javascript framework",
 			"det":"xsl ado a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -129,6 +179,10 @@
 			"type":"xml",
 			"Name":"xpath",
 			"_id":"5",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"xpath is a book of javascript framework",
 			"det":"xpath VBScript a bootstrap-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -136,6 +190,10 @@
 			"type":"xml",
 			"Name":"svg",
 			"_id":"6",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"svg is a book of javascript framework",
 			"det":"svg java a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -143,6 +201,10 @@
 			"type":"net",
 			"Name":"web pages",
 			"_id":"1",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"web pages is a book of javascript framework",
 			"det":"web pages xml a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -150,6 +212,10 @@
 			"type":"net",
 			"Name":"razor",
 			"_id":"2",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"razor is a VUEbook of javascript framework",
 			"det":"razor VUE a best-mini VUEbook of javascript in all framework,you can VUEbook VUEbook api in the book,helpness for webIT"
 		},
@@ -157,6 +223,10 @@
 			"type":"net",
 			"Name":"mvc",
 			"_id":"3",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"mvc-dom is a react of javascript react",
 			"det":"mvc-dom is a best-react framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		},
@@ -164,6 +234,10 @@
 			"type":"net",
 			"Name":"web forms",
 			"_id":"4",
+			"unitPrice":"88",
+			"defaultnm":"1",
+			"allnm":"10",
+			"img":"http://img3m5.ddimg.cn/9/33/25230555-1_b_3.jpg",
 			"title":"web forms is a book of javascript framework",
 			"det":"web forms ado a best-mini framework of javascript in all framework,you can find more api in the book,helpness for webIT"
 		}

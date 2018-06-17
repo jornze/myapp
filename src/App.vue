@@ -13,11 +13,15 @@ export default {
   data(){
     return{
        foot:[]
+      
     }
   },
   components:{
    
     foot
+  },
+  methods:{
+    
   }
 }
 </script>

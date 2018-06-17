@@ -1,5 +1,6 @@
 <template>
-	<div class='home1'>
+	<div class='home1' ref='home1'>
+	<div>
 		<template v-for='(item,index) in filteddata'>
 				<div style='height:200px' :key='item.Name' class='lists' @click='showDet(item)'>
 					<div class='listpl'>
@@ -12,20 +13,42 @@
 					
 				</div>
 	    </template>
-	    <det ref="detp" :detail='details'></det>
+	    
 	</div>
-	
+	<det ref="det" :detail='details'  @addshopcar='addshop'></det>
+	</div>
 </template>
 <script>
 import det from '@/base/det/det.vue'
+import BScroll from 'better-scroll'
 export default{
 	data(){
 		return{
 			details:{
 				type:Object,
 				required:true
-			}
+			},
+			
 		}
+	},
+	mounted(){
+		this.$nextTick(()=>{
+			this.scroll=new BScroll(this.$refs.home1,{
+						
+					      click: {
+					        type: Boolean,
+					        default: true
+					      },
+					      pullup: {
+					       type: Boolean, 
+					       default: true
+					       },
+
+					})
+		})
+			
+		
+		
 	},
 	components:{
 		det
@@ -36,8 +59,18 @@ export default{
 	methods:{
 		showDet(item){
 			this.details=item;
-			this.$refs.detp.show();	
-		}
+			
+			this.$refs.det.show();	
+		},
+		addshop(detail){
+			
+			this.$root.Bus.shopcar.push(detail);
+			
+			
+
+		
+	    }
+
 	}
 		
 	
@@ -52,7 +85,7 @@ export default{
 		box-sizing:border-box;
 	}
 	.lists .listpl{
-		width:200px;
+		width:150px;
 	}
 	.listpl img{
 		display:block;
@@ -71,10 +104,16 @@ export default{
 	}
 	.listpr p:nth-child(2){
 		height:150px;
-		line-height:40px;
+		line-height:24px;
 
 	}
-	
+	.home1{
+	    position: absolute;
+	    width: 100%;
+	    top: 40px;
+	    bottom: 10px;
+	}
+	html { overflow-x: hidden; overflow-y: hidden; }
 </style>
 
 
