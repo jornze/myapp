@@ -1,7 +1,8 @@
 <template>
 	<div ref='find'>
 		<template v-for='item in data'>
-			<p>{{item.age}}-{{item.name}}-{{item.professional}}</p>
+			<p>{{item.title}}-{{item.name}}</p>
+			<img :src="url+item.img" />
 		</template>
 	</div>
 </template>
@@ -12,7 +13,8 @@ export default{
 			data:{
 				type:Object,
 				required:true
-			}
+			},
+			url:'http://localhost:4000'
 		}
 	},
 	mounted(){

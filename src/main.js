@@ -15,10 +15,6 @@ new Vue({
   components: { App },
   template: '<App/>',
   data:{
-  	Bus:new Vue({
-  		data:{
-  			shopcar:[]
-  		}
-  	})
+    url:'http://localhost:4000'
   }
 })

@@ -14,8 +14,8 @@
 				<p  class='toptit'>操作</p>
 			  </div>
 			  
-			  <div v-if='shopcar.length'>
-				  	<div class='shoplist'  v-for='(item,index) in shopcar' >
+			  <div >
+				  	<div class='shoplist'  v-for='(item,index) in getstorage' >
 					  	<p class='check'><input type='checkbox' /></p>
 						<img :src='item.img' class='img'/>
 						<p v-text='item.Name' class='tablep'></p>
@@ -27,7 +27,7 @@
 						<p  class='tablep' @click='dele(index)'>删除</p>
 				  	</div>
 			  </div>
-			  <div v-else>暂无商品</div>
+			  <div>暂无商品</div>
 			
 		</div>
 		</div>
@@ -39,28 +39,15 @@ import BScroll from 'better-scroll'
 export default{
 	data(){
 		return{
-			shops:this.$root.Bus.shopcar,
-			dd:[]
+
 		}
 	},
 	watch:{
-		shops(){
-
-				this.dd=Array.from(new Set(this.$root.Bus.shopcar));
-				//console.log(this.dd);
-		}
+		
 	},
 	computed:{
-		shopcar(){
-			return this.dd;
-		},
-		isshop(){
-			if(this.$root.Bus.shopcar.length){
-				return true
-			}else{
-				return false
-			}
-		}
+		
+
 
 	},
 	filters:{
@@ -74,7 +61,8 @@ export default{
 	mounted(){
 		this.$nextTick(function(){
 			this.scroll();
-			
+			//this.getstorage();
+			//localStorage.clear();
 		})
 	},
 	props:{
@@ -98,6 +86,7 @@ export default{
 			}
 			
 		},
+		
 		add(item){
 			if(item.defaultnm==item.allnm){
 					item.defaultnm=item.allnm;

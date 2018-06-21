@@ -2,7 +2,7 @@
 	<transition name='move'>
 		<div v-show='flag' class='detbd'>
 			<p @click='hide'>xxxxxxx</p>
-			<img :src='detail.img'
+			<img :src='$root.$data.url+detail.img'>
 			<p v-text='detail.title'></p>
 			<p v-text='detail.unitPrice'></p>
 			<p v-text='detail.det'></p>

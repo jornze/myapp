@@ -61,8 +61,9 @@
 		},
 		methods:{
 			fetchallBookdata(){
-				this.$http.get('static/data.json').then(res=>{
-					this.allbook=res.data.book;
+				this.$http.get('/nodejson/123').then(res=>{
+					this.allbook=res.data.data;
+					console.log(this.allbook)
 					
 				}).catch(err=>{console.log('fetchallbookdata',err)})
 			},

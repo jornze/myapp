@@ -2,12 +2,12 @@
 	<div class='home1' ref='home1'>
 	<div>
 		<template v-for='(item,index) in filteddata'>
-				<div style='height:200px' :key='item.Name' class='lists' @click='showDet(item)'>
+				<div style='height:200px' :key='item.name' class='lists' @click='showDet(item)'>
 					<div class='listpl'>
-						<img :src='item.img' />
+						<img :src='$root.$data.url+item.img' />
 					</div>
 					<div class='listpr'>
-						<p v-text='item.Name'></p>
+						<p v-text='item.name'></p>
 						<p v-text='item.title'></p>
 					</div>
 					
@@ -27,8 +27,7 @@ export default{
 			details:{
 				type:Object,
 				required:true
-			},
-			
+			}
 		}
 	},
 	mounted(){
@@ -63,8 +62,23 @@ export default{
 			this.$refs.det.show();	
 		},
 		addshop(detail){
+		   
+		   if(this.localdata.length==0){
+					this.localdata.push(detail);
+			}else{
+
+					/*for(let i=0;i<this.localdata.length;i++){
+				
+						if(this.localdata[i].Name==detail.Name){
+							this.localdata[i].defaultnm=parseInt(this.localdata[i].defaultnm)+1;
+						}else{
+							this.localdata.push(detail);
+						}
+		  			}*/
+			}
 			
-			this.$root.Bus.shopcar.push(detail);
+			
+			
 			
 				
 	    }
